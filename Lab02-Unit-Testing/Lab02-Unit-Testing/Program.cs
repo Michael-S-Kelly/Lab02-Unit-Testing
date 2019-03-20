@@ -84,6 +84,7 @@ namespace Lab02_Unit_Testing
                 string inputmoney = Console.ReadLine();
                 double amount = Convert.ToDouble(inputmoney);
                 RemoveFunds(amount);
+                Continue();
             }
             catch (FormatException formEx)
             {
@@ -93,6 +94,11 @@ namespace Lab02_Unit_Testing
             }
         }
 
+        /// <summary>
+        /// This method checks to see if the amount entered in the Withdraw method is leginimate.  If leginimate, it subtracts the amount from the balance and adds to the running withdrawal total
+        /// </summary>
+        /// <param name="amount">amount that the user wishes to withdraw</param>
+        /// <returns>returns amount if the amount is leginimate or 0 if it is not</returns>
         public static double RemoveFunds(double amount)
         {
             try
@@ -100,18 +106,45 @@ namespace Lab02_Unit_Testing
                 if (balance <= amount)
                 {
                     Console.WriteLine("That Amount is not allowed");
-                    Continue();
+                    return 0;
+                } else if (amount < 0)
+                {
+                    Console.WriteLine("Silly, you can't cheat by Withdrawing a negative amount");
+                    return 0;
+                } else if (toWithdraw == 0)
+                {
+                    balance -= amount;
+                    toWithdraw += amount;
+                    Console.WriteLine($"You have withdrawn {amount} this transaction.  Your new balance is {balance}");
+                    return amount;
+                } else if (toWithdraw != 0)
+                {
+                    balance -= amount;
+                    toWithdraw += amount;
+                    Console.WriteLine($"You have withdrawn {amount} this transaction and {toWithdraw} this session.  Your new balance is {balance}");
+                    return amount;
+                } else
+                {
+                    Console.WriteLine("I'm sorry, that amount is not allowed.");
                     return 0;
                 }
-                return amount;
+
+                
+            }
+            catch (FormatException formEx)
+            {
+                Console.WriteLine("You failed to enter a number in a numeric format in the RemoveFunds method.");
+                Console.WriteLine(formEx.Message);
+                Continue();
+                throw;
             }
             catch (Exception genEx)
             {
                 Console.WriteLine(genEx.Message);
                 Continue();
+                throw;
             }
 
-            return 0;
         }
 
         #endregion
