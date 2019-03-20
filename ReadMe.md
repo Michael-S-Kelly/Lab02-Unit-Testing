@@ -1,6 +1,5 @@
 # Lab02-Unit Testing
 
-# ***Console Application README Example***
 ------------------------------
 
 # Unit Testinge
@@ -10,8 +9,7 @@
 ------------------------------
 
 ## Description
-***[Tell me about your application, should be about a paragraph]***
-This is a C# console application that will ask a user to give a lenth of an array.  Input the integers in the array, an index number, and a divisor.  It will then manipulate the numbers accordingly.
+This is a C# console application that will function like a regular ATM.  The user will start with $1000 and have the ability to withdraw, deposit, and check balance.  It will keep track of a running total for both Withdrawals and Deposits.
 
 ------------------------------
 
@@ -32,19 +30,27 @@ Then select and open ```Lab02-Unit-Testing.sln```
 ------------------------------
 
 ## Visuals
-***[Add screenshots of your application in action]***
+
 
 ##### Application Start
-![Image 1](Assets/Initial.png)
-##### Using the Application
-![Image 2](Assets/basic.png)
+![Image 1](Assets/Begin.PNG)
+##### Checking Balance
+![Image 2](Assets/CheckBal.PNG)
+##### First Withdrawal of the session
+![Image 3](Assets/FirstWith.PNG)
+##### Withdrawals after the first
+![Image 4](Assets/AfterWith.PNG)
+##### First Deposit of the session
+![Image 5](Assets/firstDep.PNG)
+##### Deposits after the first
+![Image 6](Assets/AfterDep.PNG)
 ##### Application End
-![Image 3](Assets/end.png)
+![Image 6](Assets/end.PNG)
 
 ------------------------------
 
 ## Change Log
-***[The change log will list any changes made to the code base. This includes any changes from TA/Instructor feedback]***
+
 
 
 
@@ -54,11 +60,11 @@ Then select and open ```Lab02-Unit-Testing.sln```
 ### Collaborators
 
 ### Contributors
-Phil Werner
-Andrew Roska
+####Phil Werner
+
 
 ### Other Resources
-C# 7.0 Pocket Reference
+####C# 7.0 Pocket Reference
 
 ------------------------------
 For more information on Markdown: https://www.markdownguide.org/cheat-sheet
