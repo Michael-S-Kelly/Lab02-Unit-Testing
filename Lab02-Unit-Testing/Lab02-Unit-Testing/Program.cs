@@ -16,6 +16,8 @@ namespace Lab02_Unit_Testing
                 displayMenu = MainMenu();
             }
         }
+
+        #region Navigation Menu
         /// <summary>
         /// This is the navagation method to navigate to the different basic functions of the program
         /// </summary>
@@ -68,7 +70,68 @@ namespace Lab02_Unit_Testing
                 throw;
             }
         }
+        #endregion
 
-        
+        #region Withdraw
+        /// <summary>
+        /// Basic orverall function of the Withdraw choice.  Collects the amount that the user wishes to withdraw and uses that information to execute the RemoveFunds Method.
+        /// </summary>
+        static void Withdraw()
+        {
+            try
+            {
+                Console.WriteLine("Please enter the amount you wish to withdraw from your funds: ");
+                string inputmoney = Console.ReadLine();
+                double amount = Convert.ToDouble(inputmoney);
+                RemoveFunds(amount);
+            }
+            catch (FormatException formEx)
+            {
+                Console.WriteLine("You failed to enter a number in a numeric format in the Withdraw method.");
+                Console.WriteLine(formEx.Message);
+                Continue();
+            }
+        }
+
+        public static double RemoveFunds(double amount)
+        {
+            try
+            {
+                if (balance <= amount)
+                {
+                    Console.WriteLine("That Amount is not allowed");
+                    Continue();
+                    return 0;
+                }
+                return amount;
+            }
+            catch (Exception genEx)
+            {
+                Console.WriteLine(genEx.Message);
+                Continue();
+            }
+
+            return 0;
+        }
+
+        #endregion
+
+        #region Deposit
+        static void Deposit()
+        {
+
+        }
+        #endregion
+
+        #region Continue
+        /// <summary>
+        /// This method is used to pause the program so the user is able to look at the information displayed before it is cleared
+        /// </summary>
+        static void Continue()
+        {
+            Console.WriteLine("Please press 'Enter' to continue.");
+            Console.ReadLine();
+        }
+        #endregion
     }
 }

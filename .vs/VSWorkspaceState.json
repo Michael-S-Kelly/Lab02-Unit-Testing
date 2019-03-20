@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lab02-Unit-Testing"
+    "\\Lab02-Unit-Testing",
+    "\\Lab02-Unit-Testing\\Lab02-Unit-Testing",
+    "\\Lab02-Unit-Testing\\Lab02-Unit-Testing-TDD"
   ],
-  "SelectedNode": "\\Lab02-Unit-Testing\\.gigignore",
+  "SelectedNode": "\\Lab02-Unit-Testing\\Lab02-Unit-Testing-TDD\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

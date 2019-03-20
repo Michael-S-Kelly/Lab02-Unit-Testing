@@ -1,0 +1,17 @@
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.deps.json
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.runtimeconfig.json
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.runtimeconfig.dev.json
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.pdb
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.pdb
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.csprojAssemblyReference.cache
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.csproj.CoreCompileInputs.cache
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.AssemblyInfoInputs.cache
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.AssemblyInfo.cs
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.csproj.CopyComplete
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing-TDD\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing-TDD.pdb
