@@ -1,0 +1,11 @@
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.deps.json
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.runtimeconfig.json
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.runtimeconfig.dev.json
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\bin\Debug\netcoreapp2.1\Lab02-Unit-Testing.pdb
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing.csprojAssemblyReference.cache
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing.csproj.CoreCompileInputs.cache
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing.AssemblyInfoInputs.cache
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing.AssemblyInfo.cs
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing.dll
+C:\Users\mikes\source\repos\Michael-S-Kelly\Lab02-Unit-Testing\Lab02-Unit-Testing\Lab02-Unit-Testing\obj\Debug\netcoreapp2.1\Lab02-Unit-Testing.pdb
