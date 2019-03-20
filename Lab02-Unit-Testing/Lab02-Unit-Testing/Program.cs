@@ -150,9 +150,55 @@ namespace Lab02_Unit_Testing
         #endregion
 
         #region Deposit
+        /// <summary>
+        /// Basic orverall function of the Deposit choice.  Collects the amount that the user wishes to deposit and uses that information to execute the AddFunds Method.
+        /// </summary>
         static void Deposit()
         {
+            Console.WriteLine("Please enter the amount you wish to deposit to your funds: ");
+            string inputmoney = Console.ReadLine();
+            double amount = Convert.ToDouble(inputmoney);
+            AddFunds(amount);
+            Continue();
+        }
 
+        /// <summary>
+        /// This method checks to see if the amount entered in the Deposit method is leginimate.  If leginimate, it adds the amount to the balance and adds to the running deposit total
+        /// </summary>
+        /// <param name="amount">amount that the user wishes to deposit</param>
+        /// <returns>returns amount if the amount is leginimate or 0 if it is not</returns>
+        public static double AddFunds(double amount)
+        {
+            try
+            {
+                if (amount < 0)
+                {
+                    Console.WriteLine("Silly, you can't deposit a negitive amount.");
+                    return 0;
+                } else if (toDeposit == 0)
+                {
+                    balance += amount;
+                    toDeposit += amount;
+                    Console.WriteLine($"You have deposited ${amount} this transaction.  Your new balance is ${balance}");
+                    return amount;
+                } else if (toDeposit != 0)
+                {
+                    balance += amount;
+                    toDeposit += amount;
+                    Console.WriteLine($"You have deposited ${amount} this transaction and ${toDeposit} this session.  Your new balance is ${balance}");
+                    return amount;
+                } else
+                {
+                    Console.WriteLine("Sorry, you have entered an amount that is not allowed.");
+                    return 0;
+                }
+            }
+            catch (Exception genEx)
+            {
+                Console.WriteLine(genEx.Message);
+                throw;
+            }
+            
         }
         #endregion
 
